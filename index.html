@@ -4,14 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Research Archive</title>
-<link rel="stylesheet" href="css/style.css">
-  <script src="script.js" defer></script>
+
+  <!-- ✅ CSS LINK (same folder me file hai) -->
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
+  <!-- ✅ JS file connect -->
+  <script src="./script.js" defer></script>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!-- Navigation -->
+  <!-- Navbar -->
   <header>
     <div class="logo">Research Archive</div>
     <nav id="nav-menu">
@@ -26,7 +33,7 @@
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
     <canvas id="hero-animation"></canvas>
     <div class="hero-content">
@@ -36,7 +43,7 @@
     </div>
   </section>
 
-  <!-- Search Research Section -->
+  <!-- Search Research -->
   <section id="search" class="search-section">
     <h2>Search Research</h2>
     <p>Find projects, publications, and innovations across disciplines</p>
@@ -46,7 +53,7 @@
     </div>
   </section>
 
-  <!-- Research Categories -->
+  <!-- Categories -->
   <section id="research" class="categories">
     <h2>Research Categories</h2>
     <div class="category-grid">
@@ -68,7 +75,7 @@
     </div>
   </section>
 
-  <!-- Recent Publications -->
+  <!-- Publications -->
   <section id="publications" class="publications">
     <h2>Recent Publications</h2>
     <div class="pub-grid">
